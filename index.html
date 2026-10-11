@@ -142,5 +142,15 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+    	<!-- 自动更新页面时间的功能 -->	
+	<script>
+	document.getElementById('last-update-date').textContent =
+		new Date(document.lastModified).toLocaleDateString('zh-CN', {
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric'
+		});
+</script>
+	
 	</body>
 </html>
