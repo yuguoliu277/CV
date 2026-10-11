@@ -2639,3 +2639,15 @@ input, select, textarea {
 	color: #aaa;
 	margin-bottom: 1em;
 }
+
+
+/* 从这里开始是新加的，为了解决在手机上翻不了页的bug */
+/* 手机端隐藏 iframe，显示按钮 */
+@media screen and (max-width: 736px) {
+	.cv-iframe { display: none; }
+}
+
+/* 桌面端隐藏按钮 */
+@media screen and (min-width: 737px) {
+	.cv-mobile-link { display: none; }
+}
