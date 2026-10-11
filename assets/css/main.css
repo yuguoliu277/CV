@@ -2631,3 +2631,11 @@ input, select, textarea {
 				}
 
 	}
+
+/* 页面更新时间 */
+.last-update {
+	text-align: center;
+	font-size: 0.9em;
+	color: #aaa;
+	margin-bottom: 1em;
+}
